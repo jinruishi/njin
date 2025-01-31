@@ -1,0 +1,16 @@
+{
+    "nodes": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "cube_0"
+        },
+        {
+            "name": "cube_1"
+        },
+        {
+            "name": "camera"
+        }
+    ]
+}

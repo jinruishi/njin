@@ -1,0 +1,406 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/juayh/Dev/nJin/dist/test/test.exe"
+		},
+		{
+			"path" : "C:/Users/juayh/Dev/nJin/dist/test/test.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"_find_package",
+			"find_package",
+			"add_dependencies",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"C:/Users/juayh/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"njin/CMakeLists.txt",
+			"build/vcpkg_installed/x64-windows/share/Catch2/Catch2Targets.cmake",
+			"build/vcpkg_installed/x64-windows/share/Catch2/Catch2Config.cmake",
+			"njin/core/CMakeLists.txt",
+			"njin/util/CMakeLists.txt",
+			"njin/math/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 859,
+				"parent" : 4
+			},
+			{
+				"file" : 3,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 33,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 68,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 26,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 17,
+				"parent" : 12
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 10,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 14,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 19,
+					"define" : "SHADER_DIR=\"C:/Users/juayh/Dev/nJin/shader\""
+				},
+				{
+					"backtrace" : 20,
+					"define" : "TEXTURE_DIR=\"C:/Users/juayh/Dev/nJin/texture\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/juayh/Dev/nJin/njin/math/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/juayh/Dev/nJin/build/vcpkg_installed/x64-windows/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 17,
+			"id" : "copy_test_inputs::@d2b7a5f7c5e729726afc"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "math_test::@45373196ce81cdbc06f7"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "copy_schemas::@d2b7a5f7c5e729726afc"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "core::@5983629e9880548816ae"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "math::@45373196ce81cdbc06f7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "core_test::@5983629e9880548816ae"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "util::@f24a328e949cb300b417"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "util_test::@f24a328e949cb300b417"
+		}
+	],
+	"id" : "test::@d2b7a5f7c5e729726afc",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\manual-link\\Catch2Maind.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\Catch2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "njin\\core\\core.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "njin\\util\\util.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "njin\\math\\math.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\vulkan-1.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test",
+	"nameOnDisk" : "test.exe",
+	"paths" : 
+	{
+		"build" : "njin",
+		"source" : "njin"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "njin/test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/math/CMakeFiles/math_test.dir/test/njVec4_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/math/CMakeFiles/math_test.dir/test/njMat4_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/math/CMakeFiles/math_test.dir/test/njVec3_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/math/CMakeFiles/math_test.dir/test/njVec2_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/util/CMakeFiles/util_test.dir/test/Buffer_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/core/CMakeFiles/core_test.dir/test/MeshBuilder_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/core/CMakeFiles/core_test.dir/test/njMesh_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/core/CMakeFiles/core_test.dir/test/njPrimitive_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/core/CMakeFiles/core_test.dir/test/njVertex_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/core/CMakeFiles/core_test.dir/test/njNode_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/core/CMakeFiles/core_test.dir/test/njSceneReader_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/core/CMakeFiles/core_test.dir/test/njRegistry_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/njin/core/CMakeFiles/core_test.dir/test/njScene_test.cpp.obj",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

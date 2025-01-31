@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "njin",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-njin-Debug-44331ed5289518577674.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "njin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "njin/core",
+					"jsonFile" : "directory-njin.core-Debug-318251a1f5ba00a3d5c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "njin/core",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "njin/math",
+					"jsonFile" : "directory-njin.math-Debug-a33c2450c34fd18e9f2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "njin/math",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "njin/util",
+					"jsonFile" : "directory-njin.util-Debug-db113d801b1b237a0d39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "njin/util",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "njin/vulkan",
+					"jsonFile" : "directory-njin.vulkan-Debug-911604b02677dc634200.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "njin/vulkan",
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "njin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "copy_schemas::@d2b7a5f7c5e729726afc",
+					"jsonFile" : "target-copy_schemas-Debug-f649368bd2b33dc61958.json",
+					"name" : "copy_schemas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "copy_test_inputs::@d2b7a5f7c5e729726afc",
+					"jsonFile" : "target-copy_test_inputs-Debug-90622b8683f8ae102532.json",
+					"name" : "copy_test_inputs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "core::@5983629e9880548816ae",
+					"jsonFile" : "target-core-Debug-078ea67dfab610c03447.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "core_test::@5983629e9880548816ae",
+					"jsonFile" : "target-core_test-Debug-ddacea8aa200c269cad2.json",
+					"name" : "core_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dev::@d2b7a5f7c5e729726afc",
+					"jsonFile" : "target-dev-Debug-49c9ca0620337bc74c0a.json",
+					"name" : "dev",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "math::@45373196ce81cdbc06f7",
+					"jsonFile" : "target-math-Debug-151b8dbe11168c31a412.json",
+					"name" : "math",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "math_test::@45373196ce81cdbc06f7",
+					"jsonFile" : "target-math_test-Debug-3a552fcb8ba26fbe8d3b.json",
+					"name" : "math_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "njin::@d2b7a5f7c5e729726afc",
+					"jsonFile" : "target-njin-Debug-9b806fc3c7f2b916a511.json",
+					"name" : "njin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test::@d2b7a5f7c5e729726afc",
+					"jsonFile" : "target-test-Debug-161517d4a7f37962f40a.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "util::@f24a328e949cb300b417",
+					"jsonFile" : "target-util-Debug-56212b2ba1b5c5614598.json",
+					"name" : "util",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "util_test::@f24a328e949cb300b417",
+					"jsonFile" : "target-util_test-Debug-246150f0efb76fd4c09b.json",
+					"name" : "util_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "vulkan::@724dd380e10299ecaba1",
+					"jsonFile" : "target-vulkan-Debug-d973ec28377b0ae5b014.json",
+					"name" : "vulkan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/juayh/Dev/nJin/build",
+		"source" : "C:/Users/juayh/Dev/nJin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

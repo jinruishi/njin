@@ -1,0 +1,294 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/juayh/Dev/nJin/dist/njin.exe"
+		},
+		{
+			"path" : "C:/Users/juayh/Dev/nJin/dist/njin.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"C:/Users/juayh/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"njin/CMakeLists.txt",
+			"njin/core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 598,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 14,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "SHADER_DIR=\"C:/Users/juayh/Dev/nJin/shader\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "TEXTURE_DIR=\"C:/Users/juayh/Dev/nJin/texture\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/juayh/Dev/nJin/njin/util/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/juayh/Dev/nJin/njin/vulkan/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/juayh/Dev/nJin/njin/math/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/juayh/Dev/nJin/njin/core/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "C:/Users/juayh/Dev/nJin/build/vcpkg_installed/x64-windows/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/juayh/Dev/nJin/build/vcpkg_installed/x64-windows/share/rapidjson/../../include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "core::@5983629e9880548816ae"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "math::@45373196ce81cdbc06f7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vulkan::@724dd380e10299ecaba1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "util::@f24a328e949cb300b417"
+		}
+	],
+	"id" : "njin::@d2b7a5f7c5e729726afc",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\glm.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "njin\\vulkan\\vulkan.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\vulkan-1.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\SDL3.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "njin\\math\\math.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "njin\\core\\core.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\glm.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\vulkan-1.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "njin\\util\\util.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "njin\\math\\math.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\glslang-default-resource-limitsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\SPIRVd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\glslangd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "vcpkg_installed\\x64-windows\\debug\\lib\\SPVRemapperd.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "njin",
+	"nameOnDisk" : "njin.exe",
+	"paths" : 
+	{
+		"build" : "njin",
+		"source" : "njin"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "njin/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "njin/util/src/file.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

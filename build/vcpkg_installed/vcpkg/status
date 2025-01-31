@@ -1,0 +1,106 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5bd5d5697893516dfbac367e9e009dbc51b36535c34d6e5b45c23e36cdd3c399
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 132bb3bb19019c90251f67d44707dcdf7be82031283edf79bb76930f6914b884
+Status: install ok installed
+
+Package: catch2
+Version: 3.8.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d6f52a3457254ac16168f7d15de2b3883f986acf2bf8b9f7cd10f97d1a0bda46
+Description: A modern, C++-native, test framework for unit-tests, TDD and BDD.
+Status: install ok installed
+
+Package: glm
+Version: 1.0.1
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c912f9045243b35c17cf7269ca20e4978f1c3b821fe80fe95bdab5520af018c9
+Description: OpenGL Mathematics (GLM)
+Status: install ok installed
+
+Package: glslang
+Version: 15.1.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e62e9d29e61b606e313ecc67916d548802f0413bacebf190c8ca29f64ddffea4
+Description: Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.
+Status: install ok installed
+
+Package: rapidjson
+Version: 2023-07-17
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c25eb9ab5c06a16aeee69e9bc0a8f37027aa96bff51e104caa139d5712dd3900
+Description: A fast JSON parser/generator for C++ with both SAX/DOM style API <http://rapidjson.org/>
+Status: install ok installed
+
+Package: sdl3
+Version: 3.1.6-preview
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 201cb1a0c6ef96328c76a0f37a3a89b48d2639a9a8cb21ec75ed3fd515a7355b
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Status: install ok installed
+
+Package: sdl3
+Feature: vulkan
+Architecture: x64-windows
+Multi-Arch: same
+Description: Vulkan functionality for SDL
+Status: install ok installed
+
+Package: stb
+Version: 2024-07-29
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 41db1bd3920a8ec7be1625524b8a75d8ae6fbc441b07af729f9b3f6a1e453e40
+Description: public domain header-only libraries
+Status: install ok installed
+
+Package: vulkan-headers
+Version: 1.3.296.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e240db973c3962a12c3ed6b007f9045fcb9d76e2adfc11d01725dd21486609d0
+Description: Vulkan header files and API registry
+Status: install ok installed
+
+Package: vulkan-loader
+Version: 1.3.296.0
+Depends: vcpkg-cmake, vcpkg-cmake-config, vulkan-headers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 9d6e1f465045b4c5ec83b5990ebc6f5f181955d5721b6cc23daa3d539523cd62
+Description: Vulkan Development Tools
+Status: install ok installed
+
+Package: vulkan
+Version: 2023-12-17
+Depends: vcpkg-cmake, vulkan-headers, vulkan-loader
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 1a843d912ba889fce04fe807b6482b15a994ce150ae7a76845fcab605a3d5975
+Description: A stub package that ensures that Vulkan headers and a loader are available.
+    On Android, the NDK provides a loader at API level 24 or higher.
+Status: install ok installed
+

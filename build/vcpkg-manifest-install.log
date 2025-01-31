@@ -1,0 +1,53 @@
+Detecting compiler hash for triplet x64-windows...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe
+All requested packages are currently installed.
+Total install time: 1.3 us
+catch2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Catch2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
+
+catch2 provides pkg-config modules:
+
+  # A modern, C++-native test framework for C++14 and above (links in default main)
+  catch2-with-main
+
+  # A modern, C++-native, test framework for C++14 and above
+  catch2
+
+The package glm provides CMake targets:
+
+    find_package(glm CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glm::glm)
+
+    # Or use the header-only version
+    find_package(glm CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glm::glm-header-only)
+
+glslang provides CMake targets:
+
+    find_package(glslang CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glslang::glslang glslang::glslang-default-resource-limits glslang::SPIRV glslang::SPVRemapper)
+
+rapidjson provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(RapidJSON CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE rapidjson)
+
+sdl3 provides CMake targets:
+
+  find_package(SDL3 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE SDL3::SDL3)
+
+The package stb provides CMake targets:
+
+    find_package(Stb REQUIRED)
+    target_include_directories(main PRIVATE ${Stb_INCLUDE_DIR})
+vulkan is compatible with built-in CMake targets:
+
+    # https://cmake.org/cmake/help/latest/module/FindVulkan.html
+    find_package(Vulkan REQUIRED)
+    target_link_libraries(main PRIVATE Vulkan::Vulkan)
+

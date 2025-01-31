@@ -1,0 +1,10 @@
+{
+    "cameras": [
+        {
+            "name": "perspective",
+            "near": -1,
+            "far": -10,
+            "yFov": 60
+        }
+    ]
+}

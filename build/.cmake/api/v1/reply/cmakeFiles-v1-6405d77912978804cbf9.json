@@ -1,0 +1,318 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.30.5/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "vcpkg.json"
+		},
+		{
+			"path" : "njin/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/glm/glmConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/glm/glmConfig.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/glm/glmConfig-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/glm/glmConfig-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindVulkan.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/stb/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/stb/FindStb.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/sdl3/SDL3ConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/sdl3/SDL3Config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/sdl3/SDL3headersTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/sdl3/SDL3sharedTargets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/sdl3/SDL3sharedTargets-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/sdl3/SDL3sharedTargets-release.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/Catch2/Catch2ConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/Catch2/Catch2Config.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/Catch2/Catch2Targets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/Catch2/Catch2Targets-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/Catch2/Catch2Targets-release.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/glslang/glslang-config-version.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/glslang/glslang-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/juayh/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/glslang/glslang-targets.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/glslang/glslang-targets-debug.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/glslang/glslang-targets-release.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/rapidjson/RapidJSONConfigVersion.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/vcpkg_installed/x64-windows/share/rapidjson/RapidJSONConfig.cmake"
+		},
+		{
+			"path" : "njin/core/CMakeLists.txt"
+		},
+		{
+			"path" : "njin/math/CMakeLists.txt"
+		},
+		{
+			"path" : "njin/util/CMakeLists.txt"
+		},
+		{
+			"path" : "njin/vulkan/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/juayh/Dev/nJin/build",
+		"source" : "C:/Users/juayh/Dev/nJin"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}
